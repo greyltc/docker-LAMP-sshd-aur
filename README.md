@@ -2,7 +2,7 @@
 defines a docker container with a LAMP stack, ssh server installed with aur access
 
 ## Usage
-Run with `docker run --name laurssh -p 2234:22 -p 80:80 - p 443:443 -d greyltc/lamp-sshd-aur`  
+Run with `docker run --name laurssh -p 2234:22 -p 80:80 -p 443:443 -d greyltc/lamp-sshd-aur`  
 see my LAMP container's documentation: https://github.com/greyltc/docker-LAMP
 
 ## SSH
